@@ -44,16 +44,16 @@ const Services = () => {
         {/* Card services */}
         <div className="grid grid-cols-1 sm:grid-cols-4">
             {rows.map((row) => (
-        <div className=" px-4 py-4  w-max space-y-5 mt-6 items-center justify-center  rounded-xl bg-blueBg">
-          <div className="grid-rows space-y-5">
+        <div className="px-4 py-4  w-[286px] h-[390px] space-y-5 mt-6 flex justify-center rounded-xl bg-blueBg">
+          <div className="grid-rows space-y-8 px-5 pt-5">
             {/* image */}
             <div className="w-[102px] h-[102px]">
               <img src={row.img} alt="" />
             </div>
             {/* text */}
-            <div className="flex w-[186px] flex-col">
-              <span className="text-base font-semibold">{row.name}</span>
-              <span>
+            <div className="flex w-[256px] flex-col gap-5  text-left">
+              <span className="text-2xl font-semibold">{row.name}</span>
+              <span className="text-xl">
                 {row.info}
               </span>
             </div>

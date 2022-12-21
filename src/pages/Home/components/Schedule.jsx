@@ -20,10 +20,10 @@ const Schedule = () => {
         },
     ]
   return (
-    <div className="mt-24 ml-12 bg-blueBg">
+    <div className="mt-24 bg-blueBg">
         <div className="flex items-center justify-center">
             {/* left */}
-            <div className="sm:ml-20 ml-0 flex flex-col gap-7">
+            <div className="sm:ml-20 flex flex-col gap-7">
                 {/* title */}
                 <div>
                     <span className="text-5xl font-semibold">Schedule Payments in <span className="text-[#2A3382]">3 Easy</span> steps</span>
@@ -34,7 +34,7 @@ const Schedule = () => {
                     <span className="p-2 bg-grey rounded-full w-8 h-8 items-center flex justify-center">{items.id}</span>
                     <div>
                     <p className="text-2xl font-semibold">{items.title}</p>
-                    <span className="">{items.info}</span>
+                    <span className="text-xl font-normal">{items.info}</span>
                     </div>
                 </div>
                 ))}
@@ -43,8 +43,8 @@ const Schedule = () => {
 
             {/* right */}
             <div className="hidden sm:block grow">
-                <img src={Blue} alt="" className="-z-10 w-1/5 absolute right-[315px]"/>
-                <img src={Guy} alt="" className="w-1/2 relative -top-[22px] left-[122px]"/>
+                <img src={Blue} alt="" className="-z-10 w-1/4 absolute mt-[80px] right-[225px]"/>
+                <img src={Guy} alt="" className="w-[60%] relative -top-[22px] left-[122px]"/>
             </div>
         </div>
     </div>

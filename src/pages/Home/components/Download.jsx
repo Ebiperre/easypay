@@ -7,7 +7,7 @@ const Download = () => {
       <div>
         {/* content */}
         <div className="flex flex-col items-center justify-center px-6 pt-10 gap-4">
-          <span className="text-white text-5xl font-semibold">
+          <span className="text-white text-center text-5xl font-semibold">
             Download the app and start your journey to
             <br /> stress-free payments now
           </span>
@@ -24,8 +24,8 @@ const Download = () => {
         </div>
 
         {/* img */}
-        <div className="sm:block hidden w-[832px] h-[771px] ml-40">
-          <img src={BlueLady} alt="" />
+        <div className="sm:block hidden w-[832px] h-[771px] m-[auto]">
+          <img src={BlueLady} alt=""/>
         </div>
       </div>
     </div>

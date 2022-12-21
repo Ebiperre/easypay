@@ -10,6 +10,7 @@ module.exports = {
         'grey': 'rgba(42, 51, 130, 0.1)'
       }
     },
+    display: ["group-hover"],
   },
   plugins: [],
 }

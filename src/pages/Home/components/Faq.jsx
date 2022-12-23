@@ -2,12 +2,12 @@ import React from 'react';
 import { Man } from '.';
 const Faq = () => {
   return (
-    <div className="flex items-center justify-center bg-blueBg px-12 my-16">
-      <div className="flex sm:flex-row flex-col-reverse mt-12">
+    <div className="flex items-center justify-center bg-blueBg px-12 mt-12">
+      <div className="flex sm:flex-row flex-col-reverse mt-5">
         {/* left */}
         <div>
           {/* title */}
-          <div className="flex flex-col gap-12 mt-5 px-8 ml-12">
+          <div className="flex flex-col gap-12 mt-5 px-8 pl-12">
             <span className="text-5xl font-semibold">Do you still have questions?</span>
             <span className=" text-xl pr-[12rem]">
               Check out our FAQ page to answer any of your questions around our
@@ -19,7 +19,7 @@ const Faq = () => {
         </div>
 
         {/* right */}
-        <div className="w-[762px] h-[422px] relative right-[5rem]">
+        <div className="sm:block hidden w-[762px] h-[422px] relative right-[5rem]">
             <img src={Man} alt="" />
         </div>
       </div>

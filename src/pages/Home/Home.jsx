@@ -10,6 +10,8 @@ import Services from './components/Services';
 
 const Home = () => {
   return (
+    <div>
+
     <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
       {/* Hero section */}
       <div>
@@ -45,6 +47,7 @@ const Home = () => {
       <div>
         <Faq/>
       </div>
+    </div>
     </div>
   );
 };

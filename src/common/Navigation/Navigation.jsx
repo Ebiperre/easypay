@@ -17,7 +17,7 @@ const Navigation = () => {
                 <a href="#" className="hover:text-[#2A3382] font-bold">Reviews</a>
             </div>
             {/* <!-- Button --> */}
-            <a href="#" className="hidden md:block p-3 px-6 pt-2 text-white bg-[#2A3382] rounded-xl baseline ">Download App</a>
+            <a href="#" className="hidden md:block p-3 px-8 pt-2 text-white bg-[#2A3382] rounded-xl baseline flex items-center">Download App</a>
         </div>
     </nav>
   );

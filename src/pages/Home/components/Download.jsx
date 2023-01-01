@@ -25,7 +25,7 @@ const Download = () => {
 
         {/* img */}
         <div className="sm:block hidden w-[832px] h-[771px] m-[auto]">
-          <img src={BlueLady} alt=""/>
+          <img src={BlueLady} alt="" />
         </div>
       </div>
     </div>

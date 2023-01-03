@@ -10,9 +10,9 @@ import Services from './components/Services';
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
 
-    <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
+    <div className="relative flex flex-col overflow-y-auto overflow-x-hidden">
       {/* Hero section */}
       <div>
         <Hero />

@@ -21,20 +21,20 @@ const Schedule = () => {
     ]
   return (
     <div className="mt-24 bg-blueBg">
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center text-center sm:text-left">
             {/* left */}
-            <div className="sm:ml-20 flex flex-col gap-7">
+            <div className="sm:ml-20 flex flex-col gap-7 items-center justify-center sm:items-start">
                 {/* title */}
                 <div>
-                    <span className="text-5xl font-semibold">Schedule Payments in <span className="text-[#2A3382]">3 Easy</span> steps</span>
+                    <span className="text-2xl sm:text-5xl font-semibold">Schedule Payments in <span className="text-[#2A3382]">3 Easy</span> steps</span>
                     
                 </div>
                 {items.map((items) => (
-                <div className="flex gap-4 ">
-                    <span className="p-2 bg-grey rounded-full w-8 h-8 items-center flex justify-center">{items.id}</span>
+                <div className="flex sm:gap-4 ml-5 px-10">
+                    <span className="p-2 bg-grey rounded-full sm:w-8 sm:h-8 w-5 h-5 text-sm sm:text-xl items-center flex justify-center">{items.id}</span>
                     <div>
-                    <p className="text-2xl font-semibold">{items.title}</p>
-                    <span className="text-xl font-normal">{items.info}</span>
+                    <p className="sm:text-2xl text-base font-semibold">{items.title}</p>
+                    <span className="sm:text-xl text-xs font-normal">{items.info}</span>
                     </div>
                 </div>
                 ))}

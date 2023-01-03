@@ -29,11 +29,11 @@ const Services = () => {
       <div className="ml-12">
         {/* title & info */}
         <div className="flex flex-col mt-24 gap-4">
-          <span className="text-5xl font-bold">
+          <span className="text-2xl sm:text-5xl font-bold">
             Enjoy Seamless Payment
             <br /> Services
           </span>
-          <span className="text-xl">
+          <span className="text-xl hidden sm:block">
             We have seamlessly, aggregated several bill payment channels such as
             Cable TV, Electricity,<br/>Airtime, Data and More to Come. We have simplified the entire
             process, making our app the

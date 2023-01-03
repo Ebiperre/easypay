@@ -20,17 +20,17 @@ const Happy = () => {
         },
     ]
   return (
-    <div className="mt-12 px-8 flex items-center justify-center">
-      <div>
+    <div className="mt-12 sm:px-8 px-0 flex items-center justify-center">
+      <div className="">
         {/* title */}
-        <div>
-          <span className="text-5xl flex justify-center items-center font-semibold">
+        <div className="flex justify-center items-center">
+          <span className="sm:text-5xl text-4xl text-center font-semibold">
             Happy Customers Stories
           </span>
         </div>
 
         {/* cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 px-12 mt-12 ">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 px-0 sm:px-12 mt-12">
             {peoples.map((people) =>
           <div className="bg-blueBg w-[394px] h-[399px] px-5 py-5 flex items-center justify-center rounded-2xl">
             {/* img */}

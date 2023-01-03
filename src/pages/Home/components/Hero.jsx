@@ -3,7 +3,7 @@ import { Hand, Hover } from '.';
 
 const Hero = () => {
   return (
-    <div className="flex items-center sm:flex-row flex-col bg-blueBg">
+    <div className="flex items-center sm:flex-row flex-col bg-blueBg sm:pt-0 pt-10">
       {/* Left */}
       <div className="flex-1 sm:px-28 px-10 justify-center gap-7 flex flex-col">
         <h1 className="sm:text-6xl text-4xl font-bold">
@@ -11,11 +11,10 @@ const Hero = () => {
           <span className="text-[#2A3382]">Easy</span>
         </h1>
         <span className="text-sm sm:text-xl">
-          Schedule and make bill payments at the appropraite time
-          <br /> with easypay{' '}
+          Schedule and make bill payments at the appropraite time with easypay{' '}
         </span>
-        <div className="">
-        <button className="sm:hidden block p-3 px-6 pt-2 w-max text-white bg-[#2A3382] rounded-xl baseline ">
+        <div className="flex gap-8">
+        <button className="sm:hidden block p-3 px-6 pt-2 w-max text-[#2A3382] bg-[#2A3382] bg-opacity-10 rounded-xl baseline ">
           Download App
         </button>
         <button className="md:block p-3 px-6 pt-2 w-max text-white bg-[#2A3382] rounded-xl baseline ">
@@ -34,7 +33,7 @@ const Hero = () => {
       </div>
 
       {/* right */}
-      <div className=" flex-1 mt-11 ">
+      <div className=" flex-1 sm:mt-11 mt-0">
         <img src={Hand} alt="" className="relative"/>
         <img src={Hover} alt="" className=" absolute top-[300px] opacity-0 hover:opacity-100" />
       </div>

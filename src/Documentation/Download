@@ -1,0 +1,7 @@
+This code defines a functional component called Download that displays a div element containing some content and an image. The Download component is imported from the react library at the top of the file. It also imports three named exports called BlueLady, Playstore, and Applestore from a local file.
+
+The Download component returns a div element with several children elements, including a span element with text and two span elements with images and text. The div elements have various class names applied to them, which are used to style the component.
+
+The two span elements with images and text contain img elements that display the Playstore and Applestore images and p elements with text.
+
+Finally, the Download component is exported as the default export of the file, allowing it to be imported and used in other parts of the application.

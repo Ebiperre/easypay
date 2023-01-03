@@ -1,0 +1,7 @@
+The import statement is used to import functions, objects, or primitive values from external modules and bind them to variables that are declared in the current scope.
+
+In this code snippet, the import statement is used to import the React module from the package react, and the Hand and Hover exports from the current directory (.).
+
+The Hero component is a function that returns a JSX element. It consists of a div element with two child elements, one for the left side and one for the right side. The left side contains a heading, a paragraph, and two buttons, while the right side displays two images, one of which is only visible when hovering over the element.
+
+The Hero component is then exported as the default export, making it available for other modules to import and use.

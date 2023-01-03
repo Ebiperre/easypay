@@ -1,0 +1,7 @@
+This code defines a functional component called Faq that displays a div element containing some content and an image. The Faq component is imported from the react library at the top of the file. It also imports a named export called Man from a local file.
+
+The Faq component returns a div element with several children elements, including a span element with text and an img element. The div elements have various class names applied to them, which are used to style the component.
+
+The img element displays the Man image.
+
+Finally, the Faq component is exported as the default export of the file, allowing it to be imported and used in other parts of the application.

@@ -1,0 +1,21 @@
+This code defines a functional component called Home in a JavaScript file using JSX, a syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript files. The Home component returns a div element that contains several child div elements, each of which contains a different React component. The Home component is exported and can be imported and used in other parts of the application.
+
+The imported components are:
+
+Download
+Faq
+Happy
+Hero
+Payments
+Schedule
+Services
+The Home component displays these components in the following order:
+
+Hero
+Services
+Payments
+Schedule
+Download
+Happy
+Faq
+The Home component has a div element with the class overflow-hidden as its root element. It also has a child div element with the classes relative, flex, flex-col, overflow-y-auto, and overflow-x-hidden. This div element contains all of the child div elements that render the imported components.

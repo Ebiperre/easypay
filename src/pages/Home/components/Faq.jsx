@@ -2,8 +2,8 @@ import React from 'react';
 import { Man } from '.';
 const Faq = () => {
   return (
-    <div className="flex bg-blueBg mt-12">
-      <div className="grid grid-cols-2 items-center justify-center">
+    <div className="flex bg-blueBg mt-12 pl-12">
+      <div className="grid grid-cols-2 items-center justify-between">
         {/* left */}
         <div className="flex flex-col gap-12 mt-5 ">
           {/* title */}
@@ -19,8 +19,8 @@ const Faq = () => {
         </div>
 
         {/* right */}
-        <div className="sm:block hidden">
-            <img src={Man} alt="" className="w-3/4"/>
+        <div className="sm:block hidden ml-10">
+            <img src={Man} alt="" className="w-3/4 ml-7"/>
         </div>
       </div>
     </div>

@@ -20,7 +20,7 @@ const Happy = () => {
         },
     ]
   return (
-    <div className="mt-12 sm:px-8 px-0 flex items-center justify-center">
+    <div className="mt-28 sm:px-8 px-0 flex items-center justify-center">
       <div className="">
         {/* title */}
         <div className="flex justify-center items-center">

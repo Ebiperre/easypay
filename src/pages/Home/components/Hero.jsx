@@ -35,7 +35,7 @@ const Hero = () => {
       {/* right */}
       <div className=" flex-1 sm:mt-11 mt-0">
         <img src={Hand} alt="" className="relative"/>
-        <img src={Hover} alt="" className=" absolute top-[300px] opacity-0 hover:opacity-100" />
+        <img src={Hover} alt="" className=" absolute top-[300px] right-[0.2px] opacity-0 hover:opacity-100" />
       </div>
     </div>
   );

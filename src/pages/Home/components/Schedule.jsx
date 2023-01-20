@@ -30,7 +30,7 @@ const Schedule = () => {
                     
                 </div>
                 {items.map((items) => (
-                <div className="flex sm:gap-4 ml-5 px-10">
+                <div className="flex sm:gap-4">
                     <span className="p-2 bg-grey rounded-full sm:w-8 sm:h-8 w-5 h-5 text-sm sm:text-xl items-center flex justify-center">{items.id}</span>
                     <div>
                     <p className="sm:text-2xl text-base font-semibold">{items.title}</p>
@@ -38,7 +38,7 @@ const Schedule = () => {
                     </div>
                 </div>
                 ))}
-            <button className="md:block p-3 px-6 pt-2 w-max text-white bg-[#2A3382] rounded-xl baseline">Start Making Payments</button>
+            <button className="ml-10 md:block p-3 px-6 pt-2 w-max text-white bg-[#2A3382] rounded-xl baseline mb-20">Start Making Payments</button>
             </div>
 
             {/* right */}

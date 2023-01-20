@@ -35,7 +35,7 @@ const Services = () => {
           </span>
           <span className="text-xl hidden sm:block">
             We have seamlessly, aggregated several bill payment channels such as
-            Cable TV, Electricity,<br/>Airtime, Data and More to Come. We have simplified the entire
+            Cable TV, Electricity,<br/>Airtime, Data and More to come. We have simplified the entire
             process, making our app the
             <br /> most secure platform possible.
           </span>
@@ -45,7 +45,7 @@ const Services = () => {
         <div className="grid grid-cols-1 sm:grid-cols-4">
             {rows.map((row) => (
         <div className="px-4 py-4  w-[286px] h-[390px] space-y-5 mt-6 flex justify-center rounded-xl bg-blueBg">
-          <div className="grid-rows space-y-8 px-5 pt-5">
+          <div className="grid-rows space-y-8 pt-5 pl-5">
             {/* image */}
             <div className="w-[102px] h-[102px]">
               <img src={row.img} alt="" />

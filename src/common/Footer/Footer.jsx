@@ -17,22 +17,22 @@ const Footer = () => {
           <div className="sm:grid sm:grid-cols-2 my-5 sm:my-0 gap-16">
             {/* Company */}
             <div className="">
-              <p className="text-xl font-semibold">Company</p>
+              <p className="text-xl font-semibold mb-4">Company</p>
               <ul>
-                <li>About Us</li>
-                <li>Help</li>
-                <li>Join Us</li>
-                <li>FAQs</li>
+                <li className="cursor-pointer">About Us</li>
+                <li className="cursor-pointer">Help</li>
+                <li className="cursor-pointer">Join Us</li>
+                <li className="cursor-pointer">FAQs</li>
               </ul>
             </div>
 
             {/* resources */}
             <div className=" mt-5 sm:mt-0">
-              <p className="text-xl font-semibold">Resources</p>
+              <p className="text-xl font-semibold mb-4">Resources</p>
               <ul>
-                <li>Privacy Policy</li>
-                <li>Terms and Conditions</li>
-                <li>Security</li>
+                <li className="cursor-pointer">Privacy Policy</li>
+                <li className="cursor-pointer">Terms and Conditions</li>
+                <li className="cursor-pointer">Security</li>
               </ul>
             </div>
           </div>

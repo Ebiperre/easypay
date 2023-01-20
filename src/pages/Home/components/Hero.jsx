@@ -10,7 +10,7 @@ const Hero = () => {
           Everyday Bill Payment Made{' '}
           <span className="text-[#2A3382]">Easy</span>
         </h1>
-        <span className="text-sm sm:text-xl">
+        <span className="text-sm sm:text-xl font-hk">
           Schedule and make bill payments at the appropraite time with easypay{' '}
         </span>
         <div className="flex gap-8">

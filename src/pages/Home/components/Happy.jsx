@@ -30,7 +30,7 @@ const Happy = () => {
         </div>
 
         {/* cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 px-0 sm:px-12 mt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 px-0 sm:px-2 mt-12">
             {peoples.map((people) =>
           <div className="bg-blueBg w-[394px] h-[399px] px-5 py-5 flex items-center justify-center rounded-2xl">
             {/* img */}

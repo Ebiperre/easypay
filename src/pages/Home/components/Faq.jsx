@@ -8,8 +8,8 @@ const Faq = () => {
         <div className="flex flex-col gap-12 mt-5 ">
           {/* title */}
           <div className="flex flex-col items-center justify-center ml-36 sm:ml-5">
-            <span className="text-5xl font-semibold sm:ml-0 -ml-11">Do you still have questions?</span>
-            <span className=" text-xl mt-6 my-3">
+            <span className="text-3xl w-[333px] sm:w-[608px] sm:text-5xl font-semibold sm:ml-0">Do you still have questions?</span>
+            <span className=" text-xl mt-6 my-3 w-[336px] sm:w-[601px]">
               Check out our FAQ page to answer any of your questions around our
               products and services, and if you require further assistance or
               would like to reach us for general inquiries, please email

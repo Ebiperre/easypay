@@ -23,7 +23,7 @@ const Schedule = () => {
     <div className="mt-24 bg-blueBg">
         <div className="flex items-center justify-center text-left">
             {/* left */}
-            <div className="sm:ml-20 flex flex-col gap-7 sm:items-center justify-center sm:items-start">
+            <div className="sm:ml-20 flex flex-col gap-7 sm:items-center justify-center sm:items-start ml-5">
                 {/* title */}
                 <div>
                     <span className="text-2xl sm:text-5xl font-semibold">Schedule Payments in <span className="text-[#2A3382]">3 Easy</span> steps</span>

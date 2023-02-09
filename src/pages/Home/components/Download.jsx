@@ -11,12 +11,12 @@ const Download = () => {
             Download the app and start your journey to
             <br /> stress-free payments now
           </span>
-          <div className="flex gap-4 w-max px-20">
-            <span className="border-[2px] border-white flex items-center gap-3 sm:h-[78px] px-5 mt-5 rounded-3xl w-max">
+          <div className="flex gap-4 w-max px-20 ">
+            <span className="border-[2px] border-white cursor-pointer flex items-center gap-3 sm:h-[78px] px-5 mt-5 rounded-3xl w-max">
               <img src={Playstore} alt="" className="w-10 h-10" />
               <p className="text-white text-sm sm:text-2xl font-medium">Google Play</p>
             </span>
-            <span className="border-[2px] border-white flex items-center gap-3 h-[78px] px-6 mt-5 rounded-3xl w-max">
+            <span className="cursor-pointer border-[2px] border-white flex items-center gap-3 h-[78px] px-6 mt-5 rounded-3xl w-max">
               <img src={Applestore} alt="" className="w-10 h-10" />
               <p className="text-white text-sm sm:text-2xl font-medium">App Store</p>
             </span>

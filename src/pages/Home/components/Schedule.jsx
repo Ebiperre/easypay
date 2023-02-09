@@ -21,7 +21,7 @@ const Schedule = () => {
     ]
   return (
     <div className="mt-24 bg-blueBg">
-        <div className="flex items-center justify-center text-center sm:text-left">
+        <div className="flex items-center justify-center text-left">
             {/* left */}
             <div className="sm:ml-20 flex flex-col gap-7 items-center justify-center sm:items-start">
                 {/* title */}
@@ -31,7 +31,7 @@ const Schedule = () => {
                 </div>
                 {items.map((items) => (
                 <div className="flex sm:gap-4">
-                    <span className="p-2 bg-grey rounded-full sm:w-8 sm:h-8 w-5 h-5 text-sm sm:text-xl items-center flex justify-center">{items.id}</span>
+                    <span className="p-2 bg-grey rounded-full sm:w-8 sm:h-8 w-5 h-5 text-sm sm:text-xl items-center flex sm:justify-center">{items.id}</span>
                     <div>
                     <p className="sm:text-2xl text-base font-semibold">{items.title}</p>
                     <span className="sm:text-xl text-xs font-normal">{items.info}</span>

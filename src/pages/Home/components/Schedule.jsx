@@ -30,7 +30,7 @@ const Schedule = () => {
                     
                 </div>
                 {items.map((items) => (
-                <div className="flex sm:gap-4 gap-3">
+                <div className="flex sm:gap-4 gap-3 md:gap-3">
                     <span className="p-3 bg-grey rounded-full sm:w-8 sm:h-8 w-5 h-5 text-sm sm:text-xl items-center flex justify-center ml-4 sm:ml-0">{items.id}</span>
                     <div>
                     <p className="sm:text-2xl text-base font-semibold">{items.title}</p>
